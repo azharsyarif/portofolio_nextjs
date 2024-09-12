@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const projectData = [
     {
       title: "Portfolio Website",
@@ -34,7 +36,7 @@ const projectData = [
             {projectData.map((project, index) => (
               <li key={index} className="p-6 bg-white shadow-lg rounded-lg flex flex-col md:flex-row">
                 {/* Project Image */}
-                <img
+                <Image
                   src={project.image}
                   alt={`${project.title} preview`}
                   className="w-full md:w-1/3 h-48 object-cover rounded-lg mb-4 md:mb-0 md:mr-6"

@@ -7,9 +7,9 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Contact Info Section */}
           <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8 text-center md:text-left">
-            <h3 className="text-2xl font-semibold mb-4">Let's Connect</h3>
-            <p className="text-gray-300 mb-6">
-              I’m always open to discussing your projects or opportunities for collaboration. 
+          <h3 className="text-2xl font-semibold mb-4">Let&apos;s Connect</h3>
+          <p className="text-gray-300 mb-6">
+              I&apos;m always open to discussing your projects or opportunities for collaboration. 
               Feel free to contact me through the form or using the contact information below.
             </p>
             <p className="text-lg mb-4">

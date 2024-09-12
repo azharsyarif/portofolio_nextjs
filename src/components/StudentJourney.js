@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const educationData = [
     {
       institution: "SMK Bina Informatika",
@@ -23,7 +25,7 @@ const educationData = [
           <ul className="text-left">
             {educationData.map((education, index) => (
               <li key={index} className="flex items-start mb-8">
-                <img
+                <Image
                   src={education.logo}
                   alt={`${education.institution} Logo`}
                   className="w-16 h-16 mr-6" // Adjust size as needed
